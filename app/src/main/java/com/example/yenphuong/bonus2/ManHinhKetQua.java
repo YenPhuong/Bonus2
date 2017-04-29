@@ -10,14 +10,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ManHinhKetQua extends AppCompatActivity {
     String tinh;
-    List<KetQuaXoSo> ketqua;
+
     ListView lvKetQuaTinh;
     TextView textViewPosition;
-    KetQuaXoSo ketquaxs;
     Integer vitri;
     ArrayList<String> ngay;
     String maTinh;

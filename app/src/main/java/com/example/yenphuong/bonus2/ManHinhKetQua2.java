@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +18,6 @@ import java.util.ArrayList;
 
 public class ManHinhKetQua2 extends AppCompatActivity {
     String maTinh, ngay, tinhx, kq1, kq2, kq3, kq4, kq5, kq6, kq7, kq8, kqdb, tvtieude;
-    TextView tv1, tv2, tv3, tv4, tv5, tv6, tv7, tv8, tvdb, tvtd;
     ArrayList<String> listLv;
     ListView lv;
 
@@ -28,17 +26,7 @@ public class ManHinhKetQua2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_man_hinh_ket_qua2);
 
-        tv1 = (TextView) findViewById(R.id.textViewGiai1);
-        tv2 = (TextView) findViewById(R.id.textViewGiai2);
-        tv3 = (TextView) findViewById(R.id.textViewGiai3);
-        tv4 = (TextView) findViewById(R.id.textViewGiai4);
-        tv5 = (TextView) findViewById(R.id.textViewGiai5);
-        tv6 = (TextView) findViewById(R.id.textViewGiai6);
-        tv7 = (TextView) findViewById(R.id.textViewGiai7);
-        tv8 = (TextView) findViewById(R.id.textViewGiai8);
-        tvdb = (TextView) findViewById(R.id.textViewGiaiDb);
 
-        tvtd = (TextView) findViewById(R.id.textViewNgayXoSo);
 
         lv = (ListView)findViewById(R.id.lvkq);
 
